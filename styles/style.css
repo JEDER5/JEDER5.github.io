@@ -15,12 +15,63 @@ ul {
 }
 
 .titel__tekst {
-    padding-left:30px;
-    padding-top:40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    row-gap: 20px;
+    width: 600px;
+
+}
+
+.img__div {
+
+}
+
+.img__wrapper {
+    display: flex;
+}
+
+.text__wrapper {
+    display: flex;
+}
+
+.illustration__1 {
+    width: 200px;
+    margin-right: 250px;
+}
+
+.tekst__section__container {
+    display: flex;
+    align-items: row;
+    justify-content: space-between;
+    height: 500px;
+    width: 100vw;
+    background-color: #eeeeee;
+    padding-top: 50px;
+}
+
+.myte__overskrift {
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.myte__paragraf {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.text--forside {
+    font-size: 0.8rem;
+    position: relative;
+    font-weight: 900;
 }
 
 body {
-    background-color: #e3e6e9;
+    background-color: #fff;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -193,13 +244,29 @@ background-color: #201D0F;
     width: 100vw;
 }
 
+.card__section--container {
+    margin: 50px 0;
+    background-color: #fff;
+}
+
+.overskrift--vend--kort {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding-left: 40px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    text-decoration: underline;
+}
+
 .card__container {
-    margin-top: 100px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+
 }
 
 .billede {
@@ -214,6 +281,7 @@ background-color: #201D0F;
     font-size: 1.1rem;
     font-weight: 600;
     padding: 10%;
+
 }
 
 .sandFalsk {
@@ -266,16 +334,20 @@ background-color: #201D0F;
 }
 
 .flip-card-front {
-    background-color:  #fefffc;
+    background-color: #fefffc;
     color: black;
     font-weight: 700;
+    border: solid #a8a7ab 1px;
+    border-radius: 3%;
 }
 
 .flip-card-back {
-    background-color: #595955;
+    background-color: #eeeeee;
     color: #fff;
     transform: rotateY(180deg);
     font-family: ser;
+    border: solid #a8a7ab 1px;
+    border-radius: 3%;
 }
 
 .flip-card-front img {
@@ -289,14 +361,43 @@ background-color: #201D0F;
     margin: 1rem;
     font-size: 1.4rem;
     line-height: 1.5rem;
+    color: #000000;
+    padding: 20px;
+}
+
+.sand-falsk-span {
+    border-top: solid rgb(39, 39, 39) 2px;
+}
+
+.forside--link {
+    font-weight: 600;
+}
+
+.forside--link:hover {
+    text-decoration: underline;
 }
 
 .flip-card-back p span {
-    display: block;
-    font-size: 0.8rem;
-    font-style: italic;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-top: 1.25rem;
+    padding: 10px 0;
+    font-family: sans-serif;
+}
+
+/* Footer Classes */
+
+.footer {
+    height: 500px;
+    background-color: #201D0F;
+    width: 100vw;
+
+}
+
+.footer__content__container {
+
 }
 
 
