@@ -21,7 +21,7 @@ ul {
     flex-direction: row;
     justify-content: space-between;
     height: 500px;
-    width: 100vw;
+    width: 100%;
     background-color: #eeeeee;
     padding-top: 50px;
 }
@@ -41,11 +41,13 @@ ul {
 
 .img__wrapper {
     display: flex;
+    width: 300px;
 }
 
 .illustration__1 {
     width: 200px;
     margin-right: 250px;
+    padding-bottom: 50px;
 }
 
 
@@ -89,6 +91,7 @@ body {
 .top-bar {
     background-color: #201D0F;
     height: 0px;
+    width: 100%;
 }
 
 .top-bar__content {
@@ -104,6 +107,7 @@ body {
 
 .bottom-bar {
     background-color: #201D0F;
+    width: 100%;
 }
 
 .bottom-bar__content {
@@ -273,7 +277,7 @@ body {
 
 .section__container {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .card__section--container {
@@ -298,7 +302,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-
 }
 
 .billede {
@@ -424,7 +427,7 @@ body {
 .footer {
     height: 500px;
     background-color: #201D0F;
-    width: 100vw;
+    width: 100%;
 
 }
 
